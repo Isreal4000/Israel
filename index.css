@@ -117,4 +117,17 @@ p {
   font-size: 15px;
   background-color: blue;
   width: 55px;
-}
+  justify-content: space-between;
+  display: flex;
+  } 
+
+
+
+
+  
+
+
+
+
+
+
