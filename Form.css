@@ -121,9 +121,12 @@ button:hover {
   color: red;
   font-weight: bold;
 }
-input:invalid {
-  background-image: url(icon-error.svg)
- }
+input:required:invalid {
+  background-image: url(icon-error.svg);
+    border-color: hsl(0, 100%, 74%);
+
+}
+
 
 @media (max-width: 1440px) {
   .content {
