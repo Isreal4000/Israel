@@ -121,6 +121,10 @@ button:hover {
   color: red;
   font-weight: bold;
 }
+input:invalid {
+  background-image: url(icon-error.svg)
+ }
+
 @media (max-width: 1440px) {
   .content {
     background-image: url(bg-intro-desktop.png);
