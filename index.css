@@ -1,258 +1,149 @@
 @import url("https://fonts.google,com/specimen/Big+shoulders+Display");
-
 @import url("https://fonts.google.com/specimen/Lexend+Deca");
 
 * {
-
   margin: 0;
-
   padding: 0;
-
   box-sizing: border-box;
-
 }
 
 main {
-
   font-size: 15px;
-
   width: 100%;
-
   display: flex;
-
   justify-content: center;
-
   align-content: center;
-
 }
 
 .card-content {
-
   margin-top: 1px;
-
   display: flex;
-
   align-items: center;
-
   width: 100%;
-
   max-height: 1440px;
-
   flex-flow: wrap;
-
   justify-content: center;
-
   margin-bottom: 50px;
-
-  
 
 }
 
 .card-1 {
-
   background-color: hsl(31, 77%, 52%);
-
   width: 300px;
-
   padding: 15px;
-
   padding-top: 20px;
-
-   max-height: 1440px;
-
+  max-height: 1440px;
 }
 
 .card-2 {
-
   background-color: hsl(184, 100%, 22%);
-
   width: 300px;
-
   padding: 15px;
-
   padding-top: 20px;
-
   max-height: 1440px;
-
 }
 
 .card-3 {
-
   background-color: hsl(179, 100%, 13%);
-
   width: 300px;
-
   padding: 15px;
-
   padding-top: 20px;
-
   max-height: 1440px;
-
 }
 
 .content {
-
   padding: 15px;
-
 }
 
 h1 {
-
   color: hsl(0, 0%, 95%);
-
   text-transform: uppercase;
-
   font-family: "Lexend Deca";
-
   margin: 20px 0;
-
-  padding:15px;
-
+  padding: 15px;
 }
 
 p {
-
   color: hsla(0, 0%, 100%, 0.75);
-
   font-family: "Big Shoulders Display";
-
   font-weight: 700;
-
-  padding:15px;
-
+  padding: 15px;
 }
 
 .button-1 {
-
   padding: 15px 40px;
-
-  margin: 60px 0;
-
+  margin: 20px 0 20px 12px;
   border: none;
-
   border-radius: 30px;
-
   font-size: 15px;
-
   cursor: pointer;
-
   font-family: "Lexend Deca";
-
   font-weight: 400;
-
 }
 
 .button-1:hover {
-
   background-color: transparent;
-
   border: 2px solid;
-
   transition: 0.4s;
-
 }
 
-.footer-1{
-
-  color:black;
-
+.footer-1 {
+  color: black;
   text-align: center;
 
-  margin: none;
-
 }
 
-.footer-1, a, p{
-
+.footer-1,
+a,
+p {
   text-decoration: none;
-
-  font-family:"Lexend Deca";
-
-  font-weight:bold;
-
+  font-family: "Lexend Deca";
+  font-weight: bold;
   font-size: 15px;
-
-  }
+}
 
 .span-1 {
-
   color: hsl(31, 77%, 52%);
-
 }
 
 .span-2 {
-
   color: hsl(184, 100%, 22%);
-
 }
 
 .span-3 {
-
   color: hsl(179, 100%, 13%);
-
 }
+
 
 .nav-link {
-
-display: flex;
-
-padding: 2% 6%;
-
-justify-content: space-between;
-
-align-items: center;
-
-margin-top: 20px;
-
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
 }
 
-.nav-link a{
-
-display: flex;
-
-border-radius: 16px;
-
-padding: 8px 12px;
-
-position: relative;
-
-font-family: 'Lexend Deca';
-
-color: white;
-
-background-color: blue;
-
-text-decoration: none;
-
-font-size: 15px;
-
-font-weight: 700;
-
-} 
+.nav-link a {
+  display: flex;
+  border-radius: 16px;
+  padding: 8px 12px;
+  position: relative;
+  font-family: 'Lexend Deca';
+  color: white;
+  background-color: blue;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+}
 
 @media (max-width: 1440px) {
-
   html {
-
     flex-direction: row;
-
   }
-
 }
 
 @media (max-width: 375px) {
-
   html {
-
     flex-direction: column;
-
   }
-
 }
-
-
-
-  
-
-
-
